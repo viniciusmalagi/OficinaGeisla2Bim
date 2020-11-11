@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SistemaOficina
 {
-    public partial class Form1 : Form
+    public partial class Form11 : Form
     {
-        public Form1()
+        public Form11()
         {
             InitializeComponent();
         }

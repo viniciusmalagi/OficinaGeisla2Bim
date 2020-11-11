@@ -1,6 +1,6 @@
 ﻿namespace SistemaOficina
 {
-    partial class Form1
+    partial class Form11
     {
         /// <summary>
         /// Required designer variable.
