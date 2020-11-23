@@ -296,8 +296,14 @@ namespace SistemaOficina
 
         private void btn_finalizar_Click(object sender, EventArgs e)
         {
-            GravarVenda();
-            gerarCod();
+            if (int.Parse(txt_totalCompra.Text) >= 250)
+                MessageBox.Show("Pedido Concluído!");
+            else
+            {
+                MessageBox.Show("O valor mínimo do pedido é de R$250,00");
+            }
+            //GravarVenda();
+            //gerarCod();
         }
 
         private void btn_sair_Click(object sender, EventArgs e)
@@ -336,5 +342,7 @@ namespace SistemaOficina
             }
             
         }
+        
+        
     }
 }

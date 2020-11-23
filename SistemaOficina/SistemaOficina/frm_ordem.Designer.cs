@@ -51,6 +51,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.rb_Din = new System.Windows.Forms.RadioButton();
             this.rb_Cart = new System.Windows.Forms.RadioButton();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lbl_mao = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_prod)).BeginInit();
             this.SuspendLayout();
             // 
@@ -269,11 +271,33 @@
             this.rb_Cart.Text = "Cartão (Até 6x)";
             this.rb_Cart.UseVisualStyleBackColor = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(273, 344);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(115, 13);
+            this.label9.TabIndex = 38;
+            this.label9.Text = "Valor Mão de obra:";
+            // 
+            // lbl_mao
+            // 
+            this.lbl_mao.AutoSize = true;
+            this.lbl_mao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_mao.Location = new System.Drawing.Point(394, 344);
+            this.lbl_mao.Name = "lbl_mao";
+            this.lbl_mao.Size = new System.Drawing.Size(12, 13);
+            this.lbl_mao.TabIndex = 39;
+            this.lbl_mao.Text = "*";
+            // 
             // frm_ordem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 377);
+            this.Controls.Add(this.lbl_mao);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.rb_Cart);
             this.Controls.Add(this.rb_Din);
             this.Controls.Add(this.label8);
@@ -331,5 +355,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton rb_Din;
         private System.Windows.Forms.RadioButton rb_Cart;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lbl_mao;
     }
 }
